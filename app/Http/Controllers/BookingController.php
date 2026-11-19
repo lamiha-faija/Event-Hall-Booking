@@ -120,6 +120,9 @@ public function allBookings(Request $request)
 
     public function myBookings(Request $request)
     {
+    if (Auth::check() && Auth::user()->isAdmin == 1) {
+        return redirect()->route('allBookings');
+    }
     $query = Booking::with("hall")
         ->where("user_id", Auth::user()->id);
 

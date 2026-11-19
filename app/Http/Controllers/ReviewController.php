@@ -23,11 +23,11 @@ class ReviewController extends Controller
             return redirect()->back();
         }
 
-        if ($value->rating == "" && $value->review == "") {
+        if ($value->rating == "" && $value->review == "") { //empty string
             return redirect()->back();
         }
 
-        if ($value->rating != "" && ($value->rating < 1 || $value->rating > 5)) {
+        if ($value->rating != "" && ($value->rating < 1 || $value->rating > 5)) { //not empty
             return redirect()->back();
         }
 
