@@ -14,7 +14,7 @@
     <header class="fixed top-0 left-0 w-full z-50 bg-black shadow-sm">
         <nav class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
-            <a href="/" class="text-3xl font-bold text-indigo-700">
+            <a href="/" class="text-5xl font-bold text-indigo-700">
                 Hallora<span class="text-amber-500">.</span>
             </a>
 
@@ -64,9 +64,8 @@
                 Make Every Celebration Special
             </p>
 
-            <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-7">
-                Find the Perfect Hall
-                <span class="text-amber-300">for Your Special Moments.</span>
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-7 text-amber-300">
+                Find the Perfect Hall for Your Special Moments.
             </h1>
 
             <p class="text-lg md:text-xl text-gray-200 max-w-2xl mx-auto leading-relaxed mb-10">
@@ -147,7 +146,7 @@
                             <div class="flex justify-between items-center">
 
                                 <span class="text-indigo-700 font-bold">
-                                    ৳{{ number_format($hall->price, 2) }}
+                                    ৳{{ number_format($hall->price) }}
                                 </span>
 
                                 <a href="{{ route('browseHalls') }}"

@@ -79,7 +79,7 @@
                         @endif
 
                         <div class="absolute bottom-4 left-4 rounded-lg bg-white/95 px-4 py-2 text-sm font-bold text-indigo-700 shadow">
-                            ৳{{ number_format($hall->price, 2) }}
+                            ৳{{ number_format($hall->price) }}
                         </div>
 
                     </div>
