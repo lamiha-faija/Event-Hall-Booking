@@ -109,8 +109,8 @@
                         Explore Halls
                     </a>
 
-                    <a href="{{ url('/#amenities') }}" class="rounded-lg px-3 py-2 hover:bg-slate-50">
-                        Facilities
+                    <a href="{{ url('/#goals') }}" class="rounded-lg px-3 py-2 hover:bg-slate-50">
+                        Goals
                     </a>
 
                     <a href="{{ url('/#about') }}" class="rounded-lg px-3 py-2 hover:bg-slate-50">

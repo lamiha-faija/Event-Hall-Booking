@@ -115,7 +115,7 @@
                     </div>
 
                     <span class="hidden text-sm font-medium text-slate-600 sm:block">
-                        {{ auth()->user()->name ?? 'Administrator' }}
+                        {{ auth()->user()->name }}
                     </span>
 
                 </div>
