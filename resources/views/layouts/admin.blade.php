@@ -111,7 +111,7 @@
                 <div class="flex items-center gap-3">
 
                     <div class="grid h-10 w-10 place-items-center rounded-full bg-indigo-100 font-bold text-indigo-700">
-                        {{ strtoupper(substr(auth()->user()->name ?? 'A', 0, 1)) }}
+                        {{ strtoupper(substr(auth()->user()->name, 0, 1)) }}
                     </div>
 
                     <span class="hidden text-sm font-medium text-slate-600 sm:block">
